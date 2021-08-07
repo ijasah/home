@@ -8,10 +8,12 @@ import {
   leadership,
   skills,
   getInTouch,
-  experiences
+  experiences,
+  achievements
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
+import Achievements from "./components/home/Achievements";
 import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -22,7 +24,6 @@ import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
 import Experience from "./components/home/Experience";
-
 const Home = React.forwardRef((props, ref) => {
   return (
     <>
@@ -57,6 +58,7 @@ const Home = React.forwardRef((props, ref) => {
       )}
       {leadership.show && (
         <Leadership
+          gradient={mainBody.gradientColors}
           heading={leadership.heading}
           message={leadership.message}
           img={leadership.images}
@@ -70,7 +72,16 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
-      
+      {achievements.show && (
+        <Achievements
+          heading={achievements.heading}
+          message={achievements.message}
+          link={achievements.imageLink}
+          imgSize={achievements.imageSize}
+          resume={achievements.resume}
+        />
+      )}
+
     </>
   );
 });

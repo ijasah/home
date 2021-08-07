@@ -6,14 +6,14 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "IJAS",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "A H",
+  message: " Passionate about changing the world with Artificial Intelligence. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/ijasah",
     },
     {
       image: "fa-facebook",
@@ -51,7 +51,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/Ijas.jpg"),
   imageSize: 375,
   message:
     "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
@@ -64,30 +64,38 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "ijasah", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 0,
   specificRepos: [],
 };
 
+
+
+
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "Projects & Certifications",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "Here are the list of certifications i am holding: 1. IBM Quantum Consultations 2. Infosys certified global Agile developer 3. Infosys certified open chain practioner 4.Infosys certified big data developer 4. Problem Solving Hacker rank( 5 star ranking) 5. Python, Hackerrank(5 star ranking) 6. R programming(Coursera) 7. Big data modelling and management systems(Coursera) 8. IBM Applied AI proffesional certificate 9. Infosys certified Data Science proffesional 10. Unix fundementals(infosys) 11. Certified Ethical Hacker(EC Council - Expired 2020) ",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/project1.jpg"),
+      label: "MACHINE LEARNING, DEEP LEARNING (RESEARCH PROJECT)",
+      paragraph: "Evaluation of robustness of Android malware detectors aganist adversarial examples - Conference paper"
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/project2.jpg"),
+      label: "MALWARE ANALYSIS",
+      paragraph: "Research on visual detection of Malware"
     },
+    {
+      img: require("../editable-stuff/project3.jpg"),
+      label: "OPTIMAL ROUTE SELECTOR",
+      paragraph: "Designed an algorithm to solve combinatorial optimisation in the field of routing."
+    }
   ],
   imageSize: {
     width:"615",
@@ -101,13 +109,23 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
+    { name: "Machine Learning", value: 75 },
+    { name: "Deep Learning", value: 75 },
+    { name: "Keras", value: 75 },
+    { name: "Tensorflow", value: 65 },
+    { name: "Pytorch", value: 60 },
+    { name: "Scikit-learn", value: 70 },
+    { name: "Computer vision", value: 70 },
+    { name: "Natural Language Processing", value: 70 },
+    { name: "Django", value: 70 },
+    { name: "git", value: 70 },
+    { name: "Docker", value: 50 },
+    { name: "ML-OPS", value: 65 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "C/C++", value: 50 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Research", value: 55 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,30 +144,59 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Please feel free to connect with me for any queries realted to machine learning and Deep Learning at ",
+  email: "ijas.ah96@gmail.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Software Engineer - Research Engineer',// Here Add Company Name
+      companylogo: require('../assets/img/infosys.png'),
+      date: 'Dec 2019 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Technical Writer',// Here Add Company Name
+      companylogo: require('../assets/img/Analytics_vidhya.png'),
+      date: 'Nov 2019 – Present',
+    },
+    {
+      role: 'Software Engineer Intern',// Here Add Company Name
+      companylogo: require('../assets/img/sayone.png'),
+      date: 'Jun 2018 – Jul 2018',
+    },
+    {
+      role: 'Software Engineer Intern',// Here Add Company Name
+      companylogo: require('../assets/img/ihrd.jpeg'),
+      date: 'May 2017 – Jun 2017',
     },
   ]
 }
 
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
+//Blog SECTION
+ const blog = {
+   show: false,
+   heading: "Blogs",
+   data: [
+     {
+      title: "My First Blog",
+      image: "img",
+      description:
+        "Description Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, dolores? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia provident similique corporis rem ullam odio excepturi voluptas harum, architecto sit!",
+     }
+   ]
+ };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+ const achievements = {
+  show: true,
+  heading: "Awards and Achievements",
+  imageLink: require("../editable-stuff/Ijas.jpg"),
+  imageSize: 375,
+  message:
+    "Completed Bachelor of Technology in Computer Science and Engineering from SCMS School of Engineering and Technology affiliated to APJ Abdul Kalam Technological University. My research interests span on data science, machine learning, and deep learning. Much of my work has been improving, understanding and solving problems related to these areas. I am currently working as a systems engineer at Infosys center for emerging technology solutions(Research and development).",
+  resume: "#",
+};
+
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, achievements };

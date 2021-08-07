@@ -1,18 +1,20 @@
 import React, { useState, useEffect, Profiler } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-const Leadership = ({ heading, message, img, imageSize }) => {
+const Leadership = ({ gradient, heading, message, img, imageSize }) => {
   return (
     <div
       id="leadership"
-      className="jumbotron jumbotron-fluid m-0"
-      style={{ backgroundColor: "white" }}
+      className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
+      style={{ background: `linear-gradient(136deg,${gradient})`,
+          backgroundSize: "1200% 1200%",
+      }}
     >
       <div className="container container-fluid">
-        <h2 className="display-4 pb-5 text-center">{heading}</h2>
+        <h2 className="display-4 pb-5 text-center text-white">{heading}</h2>
         <div className="row">
           <div className="col-md-5">
-            <p className="lead">{message}</p>
+            <p className="lead text-white" style={{ "text-align": "justify" }}>{message}</p>
           </div>
           <div className="col-md-7">
             <Carousel>

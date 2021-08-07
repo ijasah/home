@@ -10,7 +10,7 @@ const Experience = ({experiences}) => {
     return (  
         <section className="section">
             <Container>
-                <Jumbotron fluid className="bg-white">
+                <Jumbotron fluid className="bg-transparent">
                     <h2 className="display-4 mb-5 text-center">
                         {experiences.heading}
                     </h2>
