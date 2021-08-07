@@ -1,12 +1,12 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://hashirshoaeb.com",
+  "homepage": "https://ijasah.github.io/home",
   "version": "2.0.0",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
+    "name": "IJAS A H",
+    "email": "Ijas.ah96@gmail.com",
     "url": "https://github.com/hashirshoaeb"
   },
   "dependencies": {
