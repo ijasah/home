@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "IJAS",
   middleName: "",
   lastName: "A H",
-  message: " Passionate about changing the world with Artificial Intelligence. ",
+  message: " Passionate about changing the world with Artificial Intelligence",
   icons: [
     {
       image: "fa-github",
@@ -17,19 +17,19 @@ const mainBody = {
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/ijas.ah.1/",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "#",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/ijas-ah/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://twitter.com/ijas_h",
     },
   ],
 };
@@ -51,11 +51,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/Ijas.jpg"),
+  imageLink: require("../editable-stuff/Ijas.jpg").default,
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Completed Bachelor of Technology in Computer Science and Engineering from SCMS School of Engineering and Technology affiliated to APJ Abdul Kalam Technological University. My research interests span on data science, machine learning, and deep learning. Much of my work has been improving, understanding and solving problems related to these areas. I am currently working as a systems engineer at Infosys center for emerging technology solutions(Research and development).",
+  resume: "#",
 };
 
 // PROJECTS SECTION
@@ -82,17 +82,17 @@ const leadership = {
     "Here are the list of certifications i am holding: 1. IBM Quantum Consultations 2. Infosys certified global Agile developer 3. Infosys certified open chain practioner 4.Infosys certified big data developer 4. Problem Solving Hacker rank( 5 star ranking) 5. Python, Hackerrank(5 star ranking) 6. R programming(Coursera) 7. Big data modelling and management systems(Coursera) 8. IBM Applied AI proffesional certificate 9. Infosys certified Data Science proffesional 10. Unix fundementals(infosys) 11. Certified Ethical Hacker(EC Council - Expired 2020) ",
   images: [
     { 
-      img: require("../editable-stuff/project1.jpg"),
+      img: require("../editable-stuff/project1.jpg").default,
       label: "MACHINE LEARNING, DEEP LEARNING (RESEARCH PROJECT)",
       paragraph: "Evaluation of robustness of Android malware detectors aganist adversarial examples - Conference paper"
     },
     { 
-      img: require("../editable-stuff/project2.jpg"),
+      img: require("../editable-stuff/project2.jpg").default,
       label: "MALWARE ANALYSIS",
       paragraph: "Research on visual detection of Malware"
     },
     {
-      img: require("../editable-stuff/project3.jpg"),
+      img: require("../editable-stuff/project3.jpg").default,
       label: "OPTIMAL ROUTE SELECTOR",
       paragraph: "Designed an algorithm to solve combinatorial optimisation in the field of routing."
     }
@@ -154,22 +154,22 @@ const experiences = {
   data: [
     {
       role: 'Software Engineer - Research Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/infosys.png'),
+      companylogo: require('../assets/img/infosys.png').default,
       date: 'Dec 2019 – Present',
     },
     {
       role: 'Technical Writer',// Here Add Company Name
-      companylogo: require('../assets/img/Analytics_vidhya.png'),
+      companylogo: require('../assets/img/Analytics_vidhya.png').default,
       date: 'Nov 2019 – Present',
     },
     {
       role: 'Software Engineer Intern',// Here Add Company Name
-      companylogo: require('../assets/img/sayone.png'),
+      companylogo: require('../assets/img/sayone.png').default,
       date: 'Jun 2018 – Jul 2018',
     },
     {
       role: 'Software Engineer Intern',// Here Add Company Name
-      companylogo: require('../assets/img/ihrd.jpeg'),
+      companylogo: require('../assets/img/ihrd.jpeg').default,
       date: 'May 2017 – Jun 2017',
     },
   ]
