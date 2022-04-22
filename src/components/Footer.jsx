@@ -7,9 +7,13 @@ const Footer = (props) => {
   return (
     <footer style={bgStyle} className="mt-auto py-5 text-center ">
       <Container>
-
-
-
+        Developed using <i className="fab fa-react" />
+        <p>
+          <small className="text-muted">
+            Project code is open source. Feel free to fork and make your own
+            version. Thanks to contributors.
+          </small>
+        </p>
       </Container>
     </footer>
   );
